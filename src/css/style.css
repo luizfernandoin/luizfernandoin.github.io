@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
 main {
     width: 100%;
     min-height: 100vh;
+    background-color: #EBEBEB;
 }
   
 .container:nth-child(odd){
@@ -36,13 +39,65 @@ main {
 
 #inicio {
     padding: 0rem 0rem !important;
+    font-family: 'Work Sans', sans-serif;
 }
 
 #particles-js {
+    position: relative;
     width: 100%;
-    height: 100%;
-    background-color: black;
+    height: 100vh;
+    padding-top: 10vh;
+    color: #EBEBEB;
+    background-color: #000000;
+    z-index: 1;
 }
+
+.main-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.main-inicio #name {
+    transition: color 0.5s linear 0s;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+    font-size: 6rem;
+    color: rgb(255, 255, 255);
+}
+
+.main-inicio #skill {
+    transition: color 0.5s linear 0s;
+    font-weight: normal;
+    position: relative;
+    z-index: 1;
+    font-size: 3.5rem;
+    margin: 4rem 0px;
+    color: rgb(204, 204, 204);
+}
+
+.main-inicio #condolencias {
+    letter-spacing: -.025em;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: inherit;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
 
 @media (max-width: 990px){
     

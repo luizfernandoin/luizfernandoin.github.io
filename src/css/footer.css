@@ -1,0 +1,42 @@
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+  } 
+  
+  #footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #000000;
+    border-radius: 50%;
+    transition: all 0.4s;
+  }
+  
+  #footer_social_media .footer-link i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;    
+  }
+  
+  #footer_social_media .footer-link:hover {
+    opacity: 0.8;
+  }
+  
+  #instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+  }
+  
+  #linkedin {
+    background: linear-gradient(#0077B5, #0084BF)
+  }
+  
+  #github {
+    background: linear-gradient(#0366d6, #ffffff);
+  }
+  
+  #email {
+    background: linear-gradient(#8A2BE2, #BA55D3);
+  }
