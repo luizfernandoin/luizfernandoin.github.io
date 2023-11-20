@@ -1,0 +1,30 @@
+.container-habilidades {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-habilidade {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    height: 15vh;
+    --tw-bg-opacity: 1;
+    background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.item-habilidade img {
+    width: 5rem; 
+    margin-right: 4rem;
+}
+
+.item-habilidade span {
+    font-size: 1.5rem;
+    font-weight: 400rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
